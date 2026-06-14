@@ -1,0 +1,198 @@
+﻿Name,Type événement,Date,Date de fin,Campus,Nb inscrits,Genre (from Inscription),Nb présents,Genre (from Présence),🎯 Taux de Participation,🎯 Taux de transformation,Nb présents avec PI signé
+JPO_Bordeaux_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,BDX,15,"femme,homme,homme,homme,femme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme",1,homme,6.67%,100%,1
+JPO_Bordeaux_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,BDX,9,"homme,femme,homme,homme,homme,femme,homme",3,"femme,femme,homme",33.33%,66.67%,2
+JPO_Bordeaux_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,BDX,8,"femme,homme,homme,homme,homme,homme,femme",2,"homme,femme",25%,50%,1
+JPO_Bordeaux_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,BDX,15,"homme,femme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,femme",6,"femme,homme,homme,femme,homme,homme",40%,50%,3
+JPO_Bordeaux_05/07/2025,JPO,5/7/2025 13:30,5/7/2025 17:00,BDX,8,"femme,homme,homme,femme,homme,homme,homme,homme",2,"femme,homme",25%,50%,1
+JPO_Bordeaux_11/01/2025,JPO,11/1/2025 13:30,11/1/2025 17:00,BDX,9,"homme,homme,homme,homme,homme,femme,homme,homme,homme",2,"homme,homme",22.22%,50%,1
+JPO_Bordeaux_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,BDX,7,"femme,homme,homme,homme,homme",5,"homme,homme,homme",71.43%,40%,2
+JPO_Bordeaux_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,BDX,8,"femme,homme,homme,homme,homme,femme,homme,homme",4,"femme,homme,homme,homme",50%,25%,1
+JPO_Bordeaux_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,BDX,16,"homme,homme,homme,homme,homme,femme,femme,homme,homme,homme,homme,homme,homme,homme,femme,homme",3,"homme,homme,femme",18.75%,0%,0
+JPO_Bordeaux_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,BDX,12,"homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",3,"homme,homme,homme",25%,0%,0
+JPO_Bordeaux_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,BDX,16,"homme,femme,femme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,femme",1,homme,6.25%,0%,0
+JPO_Bordeaux_24/05/2025,JPO,24/5/2025 13:30,24/5/2025 17:00,BDX,6,"homme,homme,femme,homme,homme,homme",0,,0%,0%,0
+JPO_Bordeaux_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,BDX,6,"homme,homme,homme,homme,homme,homme",1,homme,16.67%,0%,0
+JPO_Bordeaux_26/04/2025,JPO,26/4/2025 13:30,26/4/2025 17:00,BDX,14,"homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme",2,homme,14.29%,0%,0
+JPO_Caussade_22/03/2025,JPO,22/3/2025 09:00,22/3/2025 12:30,CSD,4,"homme,homme,homme,homme",5,"homme,homme,homme,homme,homme",125%,60%,3
+JPO_Caussade_23/04/2025,JPO,23/4/2025 13:30,23/4/2025 16:00,CSD,10,"homme,femme,homme,homme,femme,homme,homme,homme,femme,homme",7,"homme,homme,homme,femme,homme,homme,femme",70%,42.86%,3
+JPO_Caussade_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:00,CSD,7,"homme,femme,homme,homme,homme,homme",6,"homme,homme,homme,femme,homme",85.71%,33.33%,2
+JPO_Caussade_15/01/2025,JPO,15/1/2025 13:30,15/1/2025 16:00,CSD,9,"homme,homme,homme,homme,homme",7,"homme,homme,homme,homme",77.78%,14.29%,1
+JPO_Caussade_14/03/2026,JPO,14/3/2026 09:00,14/3/2026 12:30,CSD,0,,0,,0%,0%,0
+JPO_Caussade_14/01/2026,JPO,14/1/2026 14:00,14/1/2026 16:00,CSD,4,"femme,homme,homme,homme",4,"homme,homme,femme,homme",100%,0%,0
+JPO_Caussade_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:00,CSD,1,femme,0,,0%,0%,0
+JPO_Dijon_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,DIJ,6,"homme,homme,homme,homme,homme,homme",3,"homme,homme,homme",50%,100%,3
+JPO_Dijon_11/01/2025,JPO,11/1/2025 13:30,11/1/2025 17:00,DIJ,4,"homme,homme,homme",3,"homme,femme,homme",75%,66.67%,2
+JPO_Dijon_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,DIJ,10,"homme,femme,homme,homme,homme,homme,homme,homme,homme,femme",2,"homme,homme",20%,50%,1
+JPO_Dijon_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,DIJ,9,"homme,homme,homme,homme,homme,homme,homme,homme,homme",3,"homme,homme,homme",33.33%,33.33%,1
+JPO_Dijon_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,DIJ,19,"femme,femme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,femme,homme,femme",10,"homme,homme,homme,homme,homme,femme,homme,homme",52.63%,30%,3
+JPO_Dijon_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,DIJ,6,"homme,homme,femme,homme,homme,homme",5,"homme,homme,homme,homme,femme",83.33%,20%,1
+JPO_Dijon_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,DIJ,7,"homme,homme,homme,homme,homme,homme,homme",3,"homme,homme,homme",42.86%,0%,0
+JPO_Dijon_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,DIJ,3,"homme,homme,homme",1,homme,33.33%,0%,0
+JPO_Dijon_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,DIJ,7,"homme,femme,homme,homme,homme,homme,homme",4,"homme,femme,homme",57.14%,0%,0
+JPO_Dijon_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,DIJ,16,"homme,homme,homme,femme,homme,femme,femme,homme,homme,homme,homme,femme,homme,homme",4,"homme,homme,homme",25%,0%,0
+Vis-ma-vie_Dijon_25/09/2025,Vis-ma-vie,25/9/2025 10:00,25/9/2025 16:00,DIJ,2,"femme,femme",0,,0%,0%,0
+Vis-ma-vie_Dijon_11/09/2025,Vis-ma-vie,11/9/2025 10:00,11/9/2025 16:00,DIJ,2,"homme,homme",0,,0%,0%,0
+Vis-ma-vie_Dijon_28/08/2025,Vis-ma-vie,28/8/2025 10:00,28/8/2025 16:00,DIJ,0,,0,,0%,0%,0
+Vis-ma-vie_Dijon_21/08/2025,Vis-ma-vie,21/8/2025 10:00,21/8/2025 16:00,DIJ,0,,0,,0%,0%,0
+Vis-ma-vie_Dijon_14/08/2025,Vis-ma-vie,14/8/2025 10:00,14/8/2025 16:00,DIJ,0,,0,,0%,0%,0
+Vis-ma-vie_Dijon_07/08/2025,Vis-ma-vie,7/8/2025 10:00,7/8/2025 16:00,DIJ,0,,0,,0%,0%,0
+Vis-ma-vie_Dijon_31/07/2025,Vis-ma-vie,31/7/2025 10:00,31/7/2025 16:00,DIJ,0,,0,,0%,0%,0
+Vis-ma-vie_Dijon_24/07/2025,Vis-ma-vie,24/7/2025 10:00,24/7/2025 16:00,DIJ,0,,0,,0%,0%,0
+JPO_Dijon_05/07/2025,JPO,5/7/2025 13:30,5/7/2025 17:00,DIJ,14,"homme,homme,femme,homme,femme,non spécifié,homme,femme,femme,homme,homme,homme,homme,homme",4,"homme,homme,femme,homme",28.57%,0%,0
+JPO_Dijon_24/05/2025,JPO,24/5/2025 13:30,24/5/2025 17:00,DIJ,5,"homme,homme,homme,homme,homme",3,"homme,homme,homme",60%,0%,0
+JPO_Dijon_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,DIJ,6,"femme,homme,homme,homme,homme,homme",4,"femme,homme,homme,homme",66.67%,0%,0
+JPO_Dijon_26/04/2025,JPO,26/4/2025 13:30,26/4/2025 17:00,DIJ,18,"homme,homme,homme,homme,homme,homme,femme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme",8,"homme,femme,homme,homme,homme,homme,homme,homme",44.44%,0%,0
+JPO_Fréjus_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,FRJ,6,"femme,non spécifié,homme,homme,femme,homme",1,femme,16.67%,100%,1
+JPO_Fréjus_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,FRJ,8,"homme,femme,homme,femme,homme,femme,homme,homme",5,"homme,homme,homme,homme,homme",62.5%,80%,4
+JPO_Fréjus_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,FRJ,12,"femme,homme,homme,femme,femme,homme,homme,homme,homme,homme,homme,homme",2,"homme,homme",16.67%,50%,1
+JPO_Fréjus_26/04/2025,JPO,26/4/2025 13:30,26/4/2025 17:00,FRJ,9,"femme,femme,homme,homme,homme,homme,homme,femme",7,"femme,homme,homme,homme,femme,femme",77.78%,42.86%,3
+JPO_Fréjus_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,FRJ,12,"homme,femme,femme,homme,homme,femme,homme,homme,homme,femme,homme",4,"homme,femme,homme,femme",33.33%,25%,1
+JPO_Fréjus_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,FRJ,4,"homme,homme,homme,homme",3,"homme,homme,homme",75%,0%,0
+JPO_Fréjus_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,FRJ,7,"femme,homme,homme,homme,femme,femme,homme",2,"homme,femme",28.57%,0%,0
+JPO_Fréjus_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,FRJ,2,"homme,homme",0,,0%,0%,0
+JPO_Fréjus_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,FRJ,12,"homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme",0,,0%,0%,0
+JPO_Fréjus_05/07/2025,JPO,5/7/2025 13:30,5/7/2025 17:00,FRJ,3,"femme,homme,femme",0,,0%,0%,0
+JPO_Fréjus_24/05/2025,JPO,24/5/2025 13:30,24/5/2025 17:00,FRJ,0,,0,,0%,0%,0
+JPO_Fréjus_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,FRJ,3,"homme,homme,homme",0,,0%,0%,0
+JPO_Fréjus_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,FRJ,3,"homme,homme,homme",4,"homme,homme,femme,homme",133.33%,0%,0
+JPO_Fréjus_11/01/2025,JPO,11/1/2025 13:30,11/1/2025 17:00,FRJ,6,"homme,femme,homme,femme,homme",3,"femme,homme,homme",50%,0%,0
+JPO_Lille_20/09/2025,JPO,20/9/2025 09:30,20/6/2025 12:30,HDF,24,"homme,homme,femme,homme,homme,femme,homme,homme,homme,femme,femme,femme,homme,homme,homme,homme,homme,homme,homme,femme,homme,non spécifié,homme,homme",6,"femme,homme,homme,femme,femme,homme",25%,66.67%,4
+JPO_Lille_24/05/2025,JPO,24/5/2025 10:00,24/5/2025 13:00,HDF,3,"homme,homme,femme",4,"homme,femme,homme,femme",133.33%,50%,2
+JPO_Lille_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,HDF,1,femme,2,"homme,femme",200%,50%,1
+JPO_Lille_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,HDF,8,"homme,homme,homme,homme,homme,homme,homme",2,"homme,homme",25%,50%,1
+JPO_Lille_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,HDF,44,"homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,femme,femme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme",12,"homme,homme,homme,homme,femme,homme,femme,homme,homme,homme",27.27%,25%,3
+JPO_Lille_05/07/2025,JPO,5/7/2025 10:00,5/7/2025 13:00,HDF,17,"homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme",5,"homme,homme,homme,femme,homme",29.41%,20%,1
+JPO_Lille_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,HDF,5,"homme,homme,homme,homme,homme",5,"homme,homme,homme,homme,homme",100%,20%,1
+JPO_Lille_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,HDF,25,"homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",5,"homme,homme,homme,homme",20%,0%,0
+JPO_Lille_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,HDF,4,"femme,homme,homme,homme",1,femme,25%,0%,0
+JPO_Lille_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,HDF,65,"homme,non spécifié,homme,homme,homme,homme,homme,homme,homme,femme,femme,femme,femme,homme,homme,femme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,femme,homme,homme,femme,homme,homme,homme,femme,femme,femme,homme,homme,femme,femme,femme,homme,homme,homme,homme,femme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme,femme",4,"homme,homme,homme,femme",6.15%,0%,0
+Vis-ma-vie_Lille_23/09/2025,Vis-ma-vie,23/9/2025 10:00,23/9/2025 12:00,HDF,2,"homme,homme",0,,0%,0%,0
+Vis-ma-vie_Lille_09/09/2025,Vis-ma-vie,9/9/2025 10:00,9/9/2025 12:00,HDF,0,,0,,0%,0%,0
+JPO_Lille_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,HDF,10,"homme,homme,homme,homme,homme,femme,homme,femme,femme,femme",3,"homme,homme,homme",30%,0%,0
+Vis-ma-vie_Lille_26/08/2025,Vis-ma-vie,26/8/2025 10:00,26/8/2025 12:00,HDF,0,,0,,0%,0%,0
+Vis-ma-vie_Lille_21/08/2025,Vis-ma-vie,21/8/2025 10:00,21/8/2025 16:00,HDF,0,,0,,0%,0%,0
+Vis-ma-vie_Lille_14/08/2025,Vis-ma-vie,14/8/2025 10:00,14/8/2025 16:00,HDF,3,"homme,homme,homme",5,"homme,homme,homme,homme,homme",166.67%,0%,0
+Vis-ma-vie_Lille_07/08/2025,Vis-ma-vie,7/8/2025 10:00,7/8/2025 16:00,HDF,3,"homme,homme,homme",2,"homme,homme",66.67%,0%,0
+Vis-ma-vie_Lille_31/07/2025,Vis-ma-vie,31/7/2025 10:00,31/7/2025 16:00,HDF,0,,0,,0%,0%,0
+Vis-ma-vie_Lille_24/07/2025,Vis-ma-vie,24/7/2025 10:00,24/7/2025 16:00,HDF,0,,1,homme,0%,0%,0
+JPO_Lille_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,HDF,5,"homme,homme,homme,femme,homme",2,"homme,homme",40%,0%,0
+JPO_Lille_26/04/2025,JPO,26/4/2025 13:30,26/4/2025 17:00,HDF,26,"homme,homme,femme,homme,homme,femme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,femme,homme,femme,femme,homme",4,"homme,femme,homme,homme",15.38%,0%,0
+JPO_Lille_11/01/2025,JPO,11/1/2025 13:30,11/1/2025 17:00,HDF,7,"homme,homme,homme,homme,homme,femme",4,"femme,homme,femme",57.14%,0%,0
+JPO_Paris_14/01/2026,JPO,14/1/2026 13:30,14/1/2026 16:30,IDF,18,"homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,femme,femme,homme,femme,homme,femme,non spécifié,homme",2,"homme,homme",11.11%,100%,2
+Vis-ma-vie_Paris_28/08/2025,Vis-ma-vie,28/8/2025 10:00,28/8/2025 17:00,IDF,8,"homme,homme,homme,femme,homme,homme,homme,homme",7,"homme,homme,homme,femme,homme,homme,homme",87.5%,100%,7
+JPO_Paris_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,IDF,48,"femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,femme,homme,homme,femme,homme,femme,femme,non spécifié,homme,homme,femme,non spécifié,non spécifié,homme,femme,homme,homme,homme",11,"homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme",22.92%,72.73%,8
+JPO_Paris_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,IDF,32,"homme,homme,homme,homme,homme,femme,homme,femme,homme,homme,non spécifié,femme,non spécifié,homme,homme,non spécifié,homme,homme,femme,homme,homme,non spécifié,homme,homme,non spécifié,homme,homme,homme,femme,homme,homme",10,"homme,homme,femme,homme,homme,homme,homme,femme,homme,homme",31.25%,60%,6
+JPO_Paris_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,IDF,18,"homme,homme,femme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme",5,"homme,homme,homme,femme,homme",27.78%,60%,3
+JPO_Paris_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,IDF,30,"homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,non spécifié,homme,homme,homme,homme,femme,homme,homme,homme,femme,homme,femme,femme,homme,femme",2,"homme,homme",6.67%,50%,1
+JPO_Paris_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,IDF,15,"femme,homme,homme,homme,homme,homme,non spécifié,homme,femme,homme,homme,femme,femme,homme,homme",6,"homme,femme,homme,homme,homme,homme",40%,50%,3
+JPO_Paris_05/07/2025,JPO,5/7/2025 13:30,5/7/2025 17:00,IDF,29,"homme,homme,femme,homme,femme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",10,"femme,homme,homme,homme,homme,homme,homme,femme,homme,homme",34.48%,40%,4
+JPO_Paris_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,IDF,28,"femme,femme,homme,homme,homme,homme,homme,homme,femme,femme,homme,homme,femme,femme,homme,homme,homme,homme,femme,homme,femme,femme,homme,homme,homme,homme,homme,homme",5,"homme,homme,homme,femme,homme",17.86%,40%,2
+JPO_Paris_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,IDF,17,"femme,homme,homme,homme,homme,femme,homme,non spécifié,femme,homme,homme,non spécifié,femme,homme,homme,homme,homme",5,"femme,homme,homme,femme,homme",29.41%,40%,2
+JPO_Paris_24/05/2025,JPO,24/5/2025 13:30,24/5/2025 17:00,IDF,18,"homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",6,"homme,homme,homme,homme,homme,homme",33.33%,33.33%,2
+JPO_Paris_26/04/2025,JPO,26/4/2025 13:30,26/4/2025 17:00,IDF,48,"homme,non spécifié,homme,femme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,femme,homme,non spécifié,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme",11,"homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",22.92%,27.27%,3
+JPO_Paris_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,IDF,24,"homme,femme,homme,homme,homme,homme,femme,femme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme",8,"homme,homme,homme,homme,homme,homme,homme,femme",33.33%,25%,2
+JPO_Paris_11/01/2025,JPO,11/1/2025 13:30,11/1/2025 17:00,IDF,13,"femme,homme,homme,non spécifié,non spécifié,non spécifié,femme,homme,femme",4,"homme,femme,femme",30.77%,25%,1
+JPO_Paris_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,IDF,19,"homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,femme,femme,homme,femme,homme,femme,non spécifié,homme",0,,0%,0%,0
+JPO_Paris_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,IDF,40,"femme,homme,femme,homme,homme,femme,homme,homme,non spécifié,homme,homme,non spécifié,homme,femme,homme,femme,femme,homme,homme,femme,homme,homme,homme,homme,femme,homme,homme,non spécifié,homme,homme,femme,homme,femme,homme,homme,homme,homme,femme,homme",9,"homme,homme,homme,femme,homme,homme,homme,homme,femme",22.5%,0%,0
+Journee_immersive_Paris_25/09/2025,Journee_immersive,25/9/2025 14:00,25/9/2025 16:30,IDF,3,"homme,homme",0,,0%,0%,0
+Vis-ma-vie_Paris_28/07/2025,Vis-ma-vie,28/7/2025 10:00,28/7/2025 17:00,IDF,0,,0,,0%,0%,0
+JPO_Laval_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,LVA,2,"homme,homme",1,homme,50%,100%,1
+Vis-ma-vie_Laval_14/08/2025,Vis-ma-vie,14/8/2025 10:00,14/8/2025 16:00,LVA,1,homme,1,homme,100%,100%,1
+JPO_Laval_10/12/2025,JPO,10/12/2025 09:30,10/12/2025 12:30,LVA,3,"femme,femme,femme",3,"femme,femme,femme",100%,66.67%,2
+JPO_Laval_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,LVA,3,"homme,homme,homme",3,"homme,homme,homme",100%,66.67%,2
+JPO_Laval_05/07/2025,JPO,5/7/2025 09:30,5/7/2025 12:30,LVA,4,"homme,homme,homme",2,"homme,homme",50%,50%,1
+JPO_Laval_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,LVA,2,"homme,homme",2,"homme,homme",100%,50%,1
+JPO_Laval_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,LVA,7,"homme,femme,homme,homme,homme,homme,homme",3,"homme,homme,homme",42.86%,33.33%,1
+JPO_Laval_11/01/2025,JPO,11/1/2025 09:30,11/1/2025 12:30,LVA,3,"homme,homme,femme",3,"femme,homme,homme",100%,33.33%,1
+JPO_Laval_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,LVA,6,"homme,homme,homme,femme,femme,homme",4,"homme,femme,homme,homme",66.67%,25%,1
+JPO_Laval_26/04/2025,JPO,26/4/2025 09:30,26/4/2025 12:30,LVA,6,"femme,homme,homme,homme,femme,homme",6,"homme,homme,homme,homme,femme,homme",100%,16.67%,1
+JPO_Laval_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,LVA,0,,0,,0%,0%,0
+Vis-ma-vie_Laval_25/09/2025,Vis-ma-vie,25/9/2025 10:00,25/9/2025 16:00,LVA,0,,0,,0%,0%,0
+JPO_Laval_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,LVA,1,homme,0,,0%,0%,0
+Vis-ma-vie_Laval_11/09/2025,Vis-ma-vie,11/9/2025 10:00,11/9/2025 16:00,LVA,0,,0,,0%,0%,0
+Vis-ma-vie_Laval_28/08/2025,Vis-ma-vie,28/8/2025 10:00,28/8/2025 16:00,LVA,0,,0,,0%,0%,0
+Vis-ma-vie_Laval_21/08/2025,Vis-ma-vie,21/8/2025 10:00,21/8/2025 16:00,LVA,0,,0,,0%,0%,0
+Vis-ma-vie_Laval_07/08/2025,Vis-ma-vie,7/8/2025 10:00,7/8/2025 16:00,LVA,1,homme,0,,0%,0%,0
+Vis-ma-vie_Laval_31/07/2025,Vis-ma-vie,31/7/2025 10:00,31/7/2025 16:00,LVA,0,,0,,0%,0%,0
+Vis-ma-vie_Laval_24/07/2025,Vis-ma-vie,24/7/2025 10:00,24/7/2025 16:00,LVA,0,,0,,0%,0%,0
+JPO_Laval_24/05/2025,JPO,24/5/2025 09:30,24/5/2025 12:30,LVA,0,,0,,0%,0%,0
+JPO_Laval_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,LVA,5,"homme,homme,homme,homme,homme",3,"homme,homme,homme",60%,0%,0
+JPO_Laval_19/03/2025,JPO,19/3/2025 10:00,19/3/2025 12:00,LVA,4,"homme,homme,homme,homme",1,homme,25%,0%,0
+JPO_Macon_17/09/2025,JPO,17/9/2025 13:30,17/9/2025 16:30,MCN,14,"femme,femme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme",10,"homme,femme,homme,homme,femme,homme,homme,homme,homme",71.43%,60%,6
+JPO_Macon_24/09/2025,JPO,24/9/2025 13:30,24/9/2025 16:30,MCN,5,"homme,homme,homme,femme,homme",1,homme,20%,0%,0
+JPO_Rodez_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,RDZ,2,"homme,homme",1,homme,50%,100%,1
+JPO_Rodez_08/01/2025,JPO,8/1/2025 14:30,8/1/2025 16:30,RDZ,8,"homme,homme,homme,femme,homme,homme,homme",1,homme,12.5%,100%,1
+JPO_Rodez_03/12/2025,JPO,3/12/2025 13:30,3/12/2025 16:00,RDZ,2,"homme,homme",3,"homme,homme,homme",150%,66.67%,2
+JPO_Rodez_11/09/2025,JPO,11/9/2025 13:30,11/9/2025 16:30,RDZ,14,"homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme",8,"homme,homme,homme,homme,homme,homme,homme",57.14%,50%,4
+JPO_Rodez_05/03/2025,JPO,5/3/2025 13:30,5/3/2025 11:02,RDZ,4,"homme,homme",4,"homme,homme,homme",100%,25%,1
+JPO_Rodez_11/03/2026,JPO,11/3/2026 14:00,11/3/2026 16:00,RDZ,0,,0,,0%,0%,0
+JPO_Rodez_30/04/2025,JPO,30/4/2025 13:30,30/4/2025 16:30,RDZ,4,"homme,homme,femme,femme",2,"homme,femme",50%,0%,0
+JPO_Rennes_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,RNS,4,"homme,homme,homme,homme",4,"homme,homme,homme,homme",100%,75%,3
+JPO_Rennes_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,RNS,8,"homme,homme,homme,homme,homme,homme,non spécifié",2,"homme,homme",25%,50%,1
+JPO_Rennes_26/04/2025,JPO,26/4/2025 09:30,26/4/2025 12:30,RNS,11,"homme,homme,homme,homme,homme,femme,homme",5,"homme,homme,femme,homme",45.45%,40%,2
+JPO_Rennes_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,RNS,8,"homme,homme,homme,homme,homme,homme,homme,homme",5,"homme,homme,homme,homme,homme",62.5%,40%,2
+JPO_Rennes_11/01/2025,JPO,11/1/2025 09:30,11/1/2025 12:30,RNS,6,"homme,homme,homme,homme,homme,homme",3,"homme,homme,homme",50%,33.33%,1
+JPO_Rennes_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,RNS,12,"homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",4,"homme,homme,homme",33.33%,25%,1
+JPO_Rennes_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,RNS,10,"homme,homme,homme,homme,femme,homme,femme,femme,homme,homme",5,"femme,homme,homme,femme,homme",50%,20%,1
+JPO_Rennes_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,RNS,8,"homme,homme,homme,homme,femme,femme,homme,homme",6,"homme,homme,homme,homme,femme,homme",75%,16.67%,1
+JPO_Rennes_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,RNS,18,"femme,homme,femme,homme,homme,femme,femme,homme,homme,femme,femme,homme,homme,femme,femme,homme,homme,homme",15,"homme,femme,homme,homme,femme,homme,femme,homme,homme,femme,femme,homme,homme,homme,femme",83.33%,13.33%,2
+JPO_Rennes_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,RNS,8,"femme,homme,homme,femme,homme,homme,homme",2,"homme,homme",25%,0%,0
+JPO_Rennes_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,RNS,12,"homme,homme,homme,femme,homme,femme,homme,homme,femme,homme",4,"homme,femme,homme,homme",33.33%,0%,0
+Vis-ma-vie_Rennes_18/12/2025,Vis-ma-vie,18/12/2025 10:00,18/12/2025 16:00,RNS,3,"homme,femme,homme",2,"homme,homme",66.67%,0%,0
+Vis-ma-vie_Rennes_25/09/2025,Vis-ma-vie,25/9/2025 10:00,25/9/2025 16:00,RNS,1,homme,0,,0%,0%,0
+Vis-ma-vie_Rennes_11/09/2025,Vis-ma-vie,11/9/2025 10:00,11/9/2025 16:00,RNS,2,"homme,homme",0,,0%,0%,0
+Vis-ma-vie_Rennes_28/08/2025,Vis-ma-vie,28/8/2025 10:00,28/8/2025 16:00,RNS,0,,0,,0%,0%,0
+Vis-ma-vie_Rennes_21/08/2025,Vis-ma-vie,21/8/2025 10:00,21/8/2025 16:00,RNS,1,homme,0,,0%,0%,0
+Vis-ma-vie_Rennes_14/08/2025,Vis-ma-vie,14/8/2025 10:00,14/8/2025 16:00,RNS,0,,0,,0%,0%,0
+Vis-ma-vie_Rennes_07/08/2025,Vis-ma-vie,7/8/2025 10:00,7/8/2025 16:00,RNS,0,,0,,0%,0%,0
+Vis-ma-vie_Rennes_31/07/2025,Vis-ma-vie,31/7/2025 10:00,31/7/2025 16:00,RNS,0,,0,,0%,0%,0
+Vis-ma-vie_Rennes_24/07/2025,Vis-ma-vie,24/7/2025 10:00,24/7/2025 16:00,RNS,1,,0,,0%,0%,0
+JPO_Rennes_05/07/2025,JPO,5/7/2025 09:30,5/7/2025 12:30,RNS,5,"homme,homme,homme,femme,homme",1,homme,20%,0%,0
+JPO_Rennes_24/05/2025,JPO,24/5/2025 09:30,24/5/2025 12:30,RNS,0,,0,,0%,0%,0
+JPO_Rennes_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,RNS,1,non spécifié,1,homme,100%,0%,0
+JPO_Sens_27/05/2025,JPO,27/5/2025 13:30,27/5/2025 18:00,SNS,2,"homme,homme",3,"homme,homme,homme",150%,100%,3
+JPO_Sens_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,SNS,11,"homme,homme,homme,homme,homme,homme,homme,femme,homme,femme,homme",3,"homme,homme,homme",27.27%,66.67%,2
+JPO_Sens_11/09/2025,JPO,11/9/2025 13:30,11/9/2025 17:00,SNS,8,"homme,femme,homme,homme,homme,homme,homme",2,"homme,homme",25%,50%,1
+JPO_Sens_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,SNS,5,"homme,homme,homme,homme,homme",2,"homme,homme",40%,50%,1
+JPO_Sens_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,SNS,8,"homme,homme,homme,homme,homme,homme,homme",7,"homme,homme,homme,homme,homme,homme,homme",87.5%,28.57%,2
+JPO_Sens_08/01/2025,JPO,8/1/2025 13:30,8/1/2025 17:00,SNS,8,"homme,homme,homme,homme",12,"homme,homme,homme,femme,homme,homme,homme,homme,homme",150%,25%,3
+JPO_Sens_09/07/2025,JPO,9/7/2025 13:30,9/7/2025 17:00,SNS,6,"homme,homme,homme,femme,homme,femme",4,"femme,femme,homme,homme",66.67%,0%,0
+JPO_Thonon-les-Bains_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,THO,4,"homme,femme,femme",1,homme,25%,100%,1
+JPO_Thonon-les-Bains_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,THO,5,"homme,femme,homme,homme,femme",1,homme,20%,100%,1
+JPO_Thonon-les-Bains_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,THO,7,"homme,homme,femme,homme,homme,homme,homme",5,"homme,homme,homme,femme,homme",71.43%,60%,3
+JPO_Thonon-les-Bains_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,THO,3,"homme,homme,homme",4,"homme,homme,homme,femme",133.33%,50%,2
+JPO_Thonon-les-Bains_24/05/2025,JPO,24/5/2025 09:00,24/5/2025 12:30,THO,10,"femme,homme,homme,homme,femme,homme,homme,homme,homme,homme",5,"homme,homme,homme,femme,homme",50%,40%,2
+JPO_Thonon-les-Bains_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,THO,10,"homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",3,"homme,homme,homme",30%,33.33%,1
+JPO_Thonon-les-Bains_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,THO,11,"homme,homme,femme,homme,non spécifié,homme,homme,homme,femme,homme,homme",6,"homme,homme,homme,homme,homme,homme",54.55%,33.33%,2
+JPO_Thonon-les-Bains_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,THO,12,"homme,homme,homme,homme,femme,homme,homme,homme,homme,homme",7,"homme,homme,femme,homme,homme,homme,homme",58.33%,28.57%,2
+JPO_Thonon-les-Bains_11/01/2025,JPO,11/1/2025 09:00,11/1/2025 12:30,THO,8,"homme,femme,homme,femme,homme,homme,femme,femme",7,"homme,femme,homme,homme,homme,femme,femme",87.5%,28.57%,2
+JPO_Thonon-les-Bains_19/04/2025,JPO,19/4/2025 09:00,26/4/2025 12:30,THO,11,"homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme",6,"homme,homme,homme,homme,femme,homme",54.55%,16.67%,1
+JPO_Thonon-les-Bains_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,THO,19,"homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,femme,homme,femme,homme,homme,homme,homme,femme",7,"femme,homme,homme,femme,femme,homme,homme",36.84%,14.29%,1
+JPO_Thonon-les-Bains_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,THO,7,"homme,homme,femme,homme,homme,femme,homme",5,"femme,homme,femme,homme,homme",71.43%,0%,0
+JPO_Thonon-les-Bains_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,THO,7,"femme,femme,homme,homme,femme",4,"homme,femme,homme",57.14%,0%,0
+Vis-ma-vie_Thonon-les-Bains_25/09/2025,Vis-ma-vie,25/9/2025 10:00,25/9/2025 16:00,THO,2,homme,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_11/09/2025,Vis-ma-vie,11/9/2025 10:00,11/9/2025 16:00,THO,0,,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_28/08/2025,Vis-ma-vie,28/8/2025 10:00,28/8/2025 16:00,THO,0,,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_21/08/2025,Vis-ma-vie,21/8/2025 10:00,21/8/2025 16:00,THO,0,,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_14/08/2025,Vis-ma-vie,14/8/2025 10:00,14/8/2025 16:00,THO,0,,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_07/08/2025,Vis-ma-vie,7/8/2025 10:00,7/8/2025 16:00,THO,0,,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_31/07/2025,Vis-ma-vie,31/7/2025 10:00,31/7/2025 16:00,THO,0,,0,,0%,0%,0
+Vis-ma-vie_Thonon-les-Bains_24/07/2025,Vis-ma-vie,24/7/2025 10:00,24/7/2025 16:00,THO,0,,0,,0%,0%,0
+JPO_Thonon-les-Bains_05/07/2025,JPO,5/7/2025 09:00,5/7/2025 12:30,THO,10,"homme,homme,homme,homme,homme,femme,homme,femme,femme,homme",5,"homme,femme,homme,homme,homme",50%,0%,0
+JPO_Toulouse_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,TLS,12,"homme,femme,femme,homme,homme,homme,femme,homme,homme,homme,homme",6,"homme,homme,femme,homme,homme,homme",50%,66.67%,4
+JPO_Toulouse_24/05/2025,JPO,24/5/2025 13:30,24/5/2025 17:00,TLS,12,"homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme",6,"homme,homme,homme,homme,homme,homme",50%,66.67%,4
+JPO_Toulouse_14/05/2025,JPO,14/5/2025 13:30,14/5/2025 17:00,TLS,16,"homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,femme,femme,homme,homme,homme,homme",8,"homme,homme,homme,femme,homme,homme,homme,femme",50%,50%,4
+JPO_Toulouse_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,TLS,18,"homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,femme,homme,femme,homme,femme",8,"femme,homme,homme,homme,femme,homme,homme",44.44%,37.5%,3
+JPO_Toulouse_17/01/2026,JPO,17/1/2026 09:30,17/1/2026 13:00,TLS,19,"homme,femme,homme,homme,femme,femme,femme,homme,femme,homme,homme,homme,homme,homme,homme,homme",6,"homme,homme,homme,homme,homme",31.58%,33.33%,2
+JPO_Toulouse_10/12/2025,JPO,10/12/2025 13:30,10/12/2025 16:30,TLS,16,"homme,homme,homme,homme,femme,homme,homme,femme,homme,homme,homme,homme",6,"homme,homme,homme,homme",37.5%,33.33%,2
+JPO_Toulouse_09/04/2025,JPO,9/4/2025 13:30,9/4/2025 17:00,TLS,16,"homme,femme,homme,homme,femme,homme,homme,femme,femme,homme,femme,femme,homme,homme,homme,homme",6,"homme,homme,femme,homme,homme,homme",37.5%,33.33%,2
+JPO_Toulouse_11/01/2025,JPO,11/1/2025 13:30,11/1/2025 17:00,TLS,11,"homme,homme,femme,femme,homme,homme,femme,homme,femme,femme,homme",6,"homme,femme,homme,femme,femme,homme",54.55%,33.33%,2
+Journee_immersive_Toulouse_10/03/2026,Journee_immersive,10/3/2026 09:30,12/3/2026 16:00,TLS,0,,4,"femme,homme,homme,homme",0%,25%,1
+JPO_Toulouse_07/03/2026,JPO,7/3/2026 09:30,7/3/2026 13:00,TLS,12,"homme,femme,femme,homme,homme,homme,homme,femme,non spécifié,femme,femme",4,"femme,homme,homme",33.33%,25%,1
+JPO_Toulouse_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,TLS,27,"homme,femme,homme,femme,homme,homme,femme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme",13,"homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme",48.15%,23.08%,3
+JPO_Toulouse_20/09/2025,JPO,20/9/2025 09:30,20/9/2025 12:30,TLS,30,"homme,homme,homme,femme,homme,femme,homme,homme,homme,non spécifié,homme,homme,femme,homme,homme,femme,homme,homme,femme,homme,femme,femme,homme,homme,homme,homme",11,"homme,homme,femme,homme,homme,homme,femme,homme,femme",36.67%,18.18%,2
+JPO_Toulouse_26/04/2025,JPO,26/4/2025 13:30,26/4/2025 17:00,TLS,40,"femme,homme,femme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,homme,femme,homme,homme,homme,homme,homme,homme,homme,femme,homme,femme,homme,femme,homme,femme,femme,homme,homme,femme,homme,homme,homme,homme,femme,homme",14,"homme,homme,homme,femme,femme,homme,homme,homme,femme,homme,homme,femme,femme,homme",35%,14.29%,2
+Journee_immersive_Toulouse_24/02/2026,Journee_immersive,24/2/2026 09:00,25/2/2026 17:00,TLS,0,,5,"homme,femme,homme,homme,homme",0%,0%,0
+Journee_immersive_Toulouse_13/01/2026,Journee_immersive,13/1/2026 09:00,15/1/2026 17:00,TLS,0,,3,"homme,femme,homme",0%,0%,0
+JPO_Toulouse_05/07/2025,JPO,5/7/2025 13:30,5/7/2025 17:00,TLS,16,"homme,femme,homme,homme,homme,homme,femme,homme,homme,femme,femme,homme,homme,femme,femme,homme",0,,0%,0%,0
+JPO_Toulouse_22/01/2025,JPO,22/1/2025 13:30,22/1/2025 17:00,TLS,14,"homme,homme,homme,femme,femme,femme,femme,homme,non spécifié,homme,homme,femme,homme,femme",6,"homme,homme,femme,femme,femme,homme",42.86%,0%,0

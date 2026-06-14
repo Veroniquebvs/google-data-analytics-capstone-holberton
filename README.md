@@ -30,7 +30,7 @@ To guide this analysis, five key questions have been defined:
 ### 2.1. Data Identification & Provenance
 To address the business task, two main data sources are utilized:
 * **Internal Data (Primary Source) :** A `.csv` file extracted directly from Holberton School’s internal business software and provided by the Communications Officer. This dataset captures the complete history of events organized from **01/08/2025 to 03/14/2026**.
-* **External Data (Secondary Source) :** The official school holiday calendar repository for 2025 and 2026, retrieved as Open Data from the French government website (data.gouv.fr). This data will help analyze how vacation periods impact candidate registration based on the specific academic zone of each campus.
+* **External Data (Secondary Source) :** The official school holiday calendar repository for 2025 and 2026, retrieved from the French government website (legifrance.gouv.fr). This data will help analyze how vacation periods impact candidate registration based on the specific academic zone of each campus.
 
 ### 2.2. Internal Dataset Structure & Variable Selection
 The initial raw file provided by the software includes 12 columns. Following an analysis of the business task, a variable filtering strategy was implemented to focus strictly on key decision-making factors (format and temporality).
