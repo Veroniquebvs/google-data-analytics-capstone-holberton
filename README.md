@@ -56,3 +56,36 @@ The initial raw file provided by the software includes 12 columns. Following an 
 
 ### 2.4. Data Governance & Security
 In strict compliance with GDPR and data governance best practices, the dataset contains no health-related or sensitive information. All Personally Identifiable Information (PII) such as participants' full names, email addresses, or phone numbers have been excluded prior to analysis to guarantee participants' privacy.
+
+## 3. PROCESS (Data Cleaning & Transformation)
+
+This phase details all the cleaning, normalization, and data enrichment steps applied to the raw file provided by Holberton School, making it fully operational for the upcoming analysis phase.
+
+### 3.1. Tools Used & Export Format
+* **Google Sheets / Excel:** Used for initial data exploration, creating transformation formulas, and building the data quality monitoring dashboard.
+* **Target Format:** Exported as a `.csv` file (UTF-8 encoding) to ensure seamless compatibility with the IDE, SQL databases, and analytical scripts.
+
+### 3.2. Data Cleaning & Normalization
+To resolve technical inconsistencies within the raw dataset, the following data cleaning procedures were executed:
+
+* **Initial Integrity Check:** First, an automated check was performed across all columns to detect and count any empty lines or structural gaps.
+* **KPI Standardization:** The `🎯 Taux de Participation` (Participation Rate) and `🎯 Taux de transformation` (Conversion Rate) columns initially contained a mix of regional formats—specifically US points (`3.50%`) and French commas (`10,00%`). Text strings using points were identified, corrected using a global find-and-replace (`.` to `,`), and reformatted into consistent numerical `Percentage` fields.
+* **Handling Missing Data (Gender Omissions):** The original demographic columns contained blank cells representing instances where users chose not to disclose their gender (39 omissions at registration, 53 at attendance). To prevent analytical bias, these empty cells were standardized under a distinct `"Non spécifié"` (Unspecified) label using the following logical formula:
+  `=IF(ISBLANK(Original_Gender); "Non spécifié"; Original_Gender)`
+
+### 3.3. Feature Engineering & Data Enrichment
+To meet the specific business requirements of this Capstone project—particularly analyzing the impact of school holidays and event scheduling—the dataset was enriched with new calculated variables:
+
+* **Time Attribute Fragmentation:** The single initial column combining both date and time was split to isolate `Date` as an independent field, along with distinct `Start Time` and `End Time` attributes, utilizing the `=INT()` function and standard time subtractions.
+* **Day Segmentation:** In response to the initial business assumption that all events only last half a day, calculating the actual event duration `(End_Time - Start_Time)` invalidated this belief by revealing long-format sessions (Average = 3h51, Max = 8h00). Consequently, events were dynamically segmented into 3 time slots (`Matin`, `Après-midi`, `Journée`) using the following nested formula:
+  `=IF(Duration_Hours > 5; "Journée"; IF(Start_Time < TIME(13;0;0); "Matin"; "Après-midi"))`
+* **Geographical Mapping of School Holiday Zones:** Utilizing a custom reference table of French academic regions built within the `Synthèse` tab, each campus location code was mapped to its official school holiday calendar (Zone A, B, or C) via a dynamic lookup function:
+  `=VLOOKUP(Campus; Reference_Table; 2; FALSE)`
+* **Text-to-Numeric Parsing Algorithm:** Complex text strings listing individual attendee genders per event were converted into clean, discrete numerical metrics (`Nb_hommes_presents`, `Nb_femmes_presents`, `Nb_non_specifie`) by calculating character length differentials:
+  `=(LEN(Presence_Gender) - LEN(SUBSTITUTE(Presence_Gender; "homme"; ""))) / LEN("homme")`
+
+### 3.4. Data Quality Check
+A data quality control dictionary was implemented in the "Synthèse" sheet to continuously monitor file integrity.
+
+**Final Result:** 100% of strategic columns (`Type événement`, `Date`, `Campus`, and all cleaned variables) now display **0 missing values (NULL)**. All numbers are correctly aligned and typed, confirming that the dataset is verified, clean, and ready for the **ANALYZE** phase.
+
