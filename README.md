@@ -28,9 +28,10 @@ To guide this analysis, five key questions have been defined:
 ## 2. PREPARE
 
 ### 2.1. Data Identification & Provenance
-To address the business task, two main data sources are utilized:
+To address the business task, three main data sources are utilized :
 * **Internal Data (Primary Source) :** A `.csv` file extracted directly from Holberton School’s CRM and provided by the Communications Officer. This dataset captures the complete history of events organized from **01/08/2025 to 03/14/2026**.
 * **External Data (Secondary Source) :** The official school holiday calendar repository for 2025 and 2026, retrieved from the French government website (legifrance.gouv.fr). This data will help analyze how vacation periods impact candidate registration based on the specific academic zone of each campus.
+* **External Data - Public Holidays (Secondary Source) :** The official French public holiday calendar database, retrieved from [data.gouv.fr](https://www.data.gouv.fr/datasets/jours-feries-en-france). This dataset is used to identify and measure the impact of national holidays on event attendance and conversion rates.
 
 ### 2.2. Internal Dataset Structure & Variable Selection
 The initial raw file provided by the software includes 12 columns. Following an analysis of the business task, a variable filtering strategy was implemented to focus strictly on key decision-making factors (format and temporality).
@@ -43,7 +44,7 @@ The initial raw file provided by the software includes 12 columns. Following an 
 * **Genre from Inscription & Genre from Présence (Gender)** *(Categorical variables)* : Data describing the demographic profile of participants (Male/Female).
 * **Taux de participation & Taux de transformation (Attendance Rate & Conversion Rate)** *(Numerical/Percentage variables)* : Final Key Performance Indicators (KPIs) to measure user engagement and the success of conversion goals.
 
-#### 2.2.2. Variables Excluded from Analysis:
+#### 2.2.2. Variables Excluded from Analysis :
 * **Name** *(Free-text variable)* : The specific event name is a unique text string. Because it does not allow for meaningful statistical grouping compared to the `Type événement` column, it was discarded.
 * **Nb présents avec PI signé (No. of Attendees with Signed Registration)** *(Numerical variable)* : This column, which tracks signed registration contracts, is redundant because the ultimate success metric is already accurately captured in relative terms by the `Taux de transformation` variable.
 
@@ -62,30 +63,35 @@ In strict compliance with GDPR and data governance best practices, the dataset c
 This phase details all the cleaning, normalization, and data enrichment steps applied to the raw file provided by Holberton School, making it fully operational for the upcoming analysis phase.
 
 ### 3.1. Tools Used & Export Format
-* **Google Sheets / Excel:** Used for initial data exploration, creating transformation formulas, and building the data quality monitoring dashboard.
-* **Target Format:** Exported as a `.csv` file (UTF-8 encoding) to ensure seamless compatibility with the IDE, SQL databases, and analytical scripts.
+* **Google Sheets :** Used for initial data exploration, creating transformation formulas, and building the data quality monitoring dashboard.
+* **Target Format :** Exported as a `.csv` file (UTF-8 encoding) to ensure seamless compatibility with the IDE, SQL databases, and analytical scripts.
 
 ### 3.2. Data Cleaning & Normalization
-To resolve technical inconsistencies within the raw dataset, the following data cleaning procedures were executed:
+To resolve technical inconsistencies within the raw dataset, the following data cleaning procedures were executed :
 
-* **Initial Integrity Check:** First, an automated check was performed across all columns to detect and count any empty lines or structural gaps.
-* **KPI Standardization:** The `🎯 Taux de Participation` (Participation Rate) and `🎯 Taux de transformation` (Conversion Rate) columns initially contained a mix of regional formats—specifically US points (`3.50%`) and French commas (`10,00%`). Text strings using points were identified, corrected using a global find-and-replace (`.` to `,`), and reformatted into consistent numerical `Percentage` fields.
-* **Handling Missing Data (Gender Omissions):** The original demographic columns contained blank cells representing instances where users chose not to disclose their gender (39 omissions at registration, 53 at attendance). To prevent analytical bias, these empty cells were standardized under a distinct `"Non spécifié"` (Unspecified) label using the following logical formula:
-  `=IF(ISBLANK(Original_Gender); "Non spécifié"; Original_Gender)`
+* **Initial Integrity Check :** First, an automated check was performed across all columns to detect and count any empty lines or structural gaps.
+* **KPI Standardization:** The `Taux de Participation` (Participation Rate) and `Taux de transformation` (Conversion Rate) columns initially contained a mix of regional formats—specifically US points (`3.50%`) and French commas (`10,00%`). Text strings using points were identified, corrected using a global find-and-replace (`.` to `,`), and reformatted into consistent numerical `Percentage` fields.
+* **Handling Missing Data (Gender Omissions) :** The original demographic columns contained blank cells representing instances where users chose not to disclose their gender (39 omissions at registration, 53 at attendance). To prevent analytical bias, these empty cells were standardized under a distinct `"Non spécifié"` (Unspecified) label using the following logical formula :
+  `=SI(ESTVIDE(Original_Gender); "Non spécifié"; Original_Gender)`
 
 ### 3.3. Feature Engineering & Data Enrichment
-To meet the specific business requirements of this Capstone project—particularly analyzing the impact of school holidays and event scheduling—the dataset was enriched with new calculated variables:
+To meet the specific business requirements of this Capstone project, the dataset was enriched with new calculated variables :
+ 
+* **Time Attribute Fragmentation :** The single initial column combining both date and time was split to isolate `Date` as an independent field, along with distinct `Start Time` and `End Time` attributes, utilizing the `=ENT()` function and standard time subtractions.
+* **Day Segmentation :** In response to the initial business assumption that all events only last half a day, calculating the actual event duration `(End_Time - Start_Time)` invalidated this belief by revealing long-format sessions (Average = 3h51, Max = 8h00). Consequently, events were dynamically segmented into 3 time slots (`Matin`, `Après-midi`, `Journée`) using the following nested formula:
+  `=SI(Duration_Hours > 5; "Journée"; SI(Start_Time < TIME(13;0;0); "Matin"; "Après-midi"))`
+* **Geographical Mapping of School Holiday Zones :** Utilizing a custom reference table of French academic regions built within the `Synthèse` tab, each campus location code was mapped to its official school holiday calendar (Zone A, B, or C) via a dynamic lookup function :
+  `=RECHERCHEV(Campus; Synthèse; 2; FALSE)`
+* **Weekend Classification :** Identified if an event occurred on a weekend (Saturday or Sunday) to analyze weekend vs. weekday student engagement, using the `JOURSEM` function :
+  `=SI(JOURSEM(Date_seule; 2) > 5; 1; 0)`
+* **Public Holiday Flagging :** Determined whether an event fell on a French national public holiday by cross-referencing event dates with the official public holiday repository ([public_holidays_mainland_france.csv](public_holidays_mainland_france.csv)) using a search and matching function:
+  `=SI(NB.SI(Synthèse; Date seule) > 0; 1; 0)`
 
-* **Time Attribute Fragmentation:** The single initial column combining both date and time was split to isolate `Date` as an independent field, along with distinct `Start Time` and `End Time` attributes, utilizing the `=INT()` function and standard time subtractions.
-* **Day Segmentation:** In response to the initial business assumption that all events only last half a day, calculating the actual event duration `(End_Time - Start_Time)` invalidated this belief by revealing long-format sessions (Average = 3h51, Max = 8h00). Consequently, events were dynamically segmented into 3 time slots (`Matin`, `Après-midi`, `Journée`) using the following nested formula:
-  `=IF(Duration_Hours > 5; "Journée"; IF(Start_Time < TIME(13;0;0); "Matin"; "Après-midi"))`
-* **Geographical Mapping of School Holiday Zones:** Utilizing a custom reference table of French academic regions built within the `Synthèse` tab, each campus location code was mapped to its official school holiday calendar (Zone A, B, or C) via a dynamic lookup function:
-  `=VLOOKUP(Campus; Reference_Table; 2; FALSE)`
-* **Text-to-Numeric Parsing Algorithm:** Complex text strings listing individual attendee genders per event were converted into clean, discrete numerical metrics (`Nb_hommes_presents`, `Nb_femmes_presents`, `Nb_non_specifie`) by calculating character length differentials:
-  `=(LEN(Presence_Gender) - LEN(SUBSTITUTE(Presence_Gender; "homme"; ""))) / LEN("homme")`
+* **Text-to-Numeric Parsing Algorithm :** Complex text strings listing individual attendee genders per event were converted into clean, discrete numerical metrics (`Nb_hommes_presents`, `Nb_femmes_presents`, `Nb_non_specifie`) by calculating character length differentials :
+  `(NBCAR(Genre_Presence_nettoye) - NBCAR(SUBSTITUE(Genre_Presence_nettoye; "homme"; ""))) / NBCAR("homme")`
 
 ### 3.4. Data Quality Check
 A data quality control dictionary was implemented in the "Synthèse" sheet to continuously monitor file integrity.
 
-**Final Result:** 100% of strategic columns (`Type événement`, `Date`, `Campus`, and all cleaned variables) now display **0 missing values (NULL)**. All numbers are correctly aligned and typed, confirming that the dataset is verified, clean, and ready for the **ANALYZE** phase.
+**Final Result :** 100% of strategic columns (`Type événement`, `Date`, `Campus`, and all cleaned variables) now display **0 missing values (NULL)**. All numbers are correctly aligned and typed, confirming that the dataset is verified, clean, and ready for the **ANALYZE** phase.
 
