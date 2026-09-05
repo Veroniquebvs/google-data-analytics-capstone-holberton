@@ -58,6 +58,8 @@ The initial raw file provided by the software includes 12 columns. Following an 
 ### 2.4. Data Governance & Security
 In strict compliance with GDPR and data governance best practices, the dataset contains no health-related or sensitive information. All Personally Identifiable Information (PII) such as participants' full names, email addresses, or phone numbers have been excluded prior to analysis to guarantee participants' privacy.
 
+---
+
 ## 3. PROCESS (Data Cleaning & Transformation)
 
 This phase details all the cleaning, normalization, and data enrichment steps applied to the raw file provided by Holberton School, making it fully operational for the upcoming analysis phase.
@@ -95,3 +97,19 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 
 **Final Result :** 100% of strategic columns (`Type événement`, `Date`, `Campus`, and all cleaned variables) now display **0 missing values (NULL)**. All numbers are correctly aligned and typed, confirming that the dataset is verified, clean, and ready for the **ANALYZE** phase.
 
+## 4. ANALYZE
+
+### 4.1 Conversion Performance by Event Type
+
+> **Associated SQL Script:** [`sql/01_conversion_by_event_type.sql`](sql/01_conversion_by_event_type.sql)
+
+| Event Type | Total Events | Total Registered | Total Attendees | Total Converted (Signed PI) | Attendance Rate (%) | Transformation Rate (Attendees) (%) | Global Conversion Rate (Registered) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Vis-ma-vie** | 43 | 32 | 18 | 8 | **56.25%** | **44.44%** | **25.00%** |
+| **JPO** | 150 | 1,683 | 622 | 195 | 36.96% | 31.35% | 11.59% |
+| **Journee_immersive** | 4 | 3 | 12 | 1 | 400.00% | 8.33% | 33.33% |
+
+**Key Insights:**
+* **Highest In-Person Conversion:** The *Vis-ma-vie* format achieves the highest attendee transformation rate (**44.44%** vs. 31.35% for Open Days / JPO), confirming that immersion drives strong commitment.
+* **Volume Driver:** Open Days (*JPO*) account for nearly all total signed contracts (**195 out of 204**), despite a lower show-up rate (36.96%).
+* **Data Discrepancy Note:** The *Journee_immersive* category shows a data entry anomaly with more reported attendees than registered leads (12 attendees vs. 3 registered), making this segment statistically unreliable.
