@@ -1,4 +1,4 @@
-﻿Name,Type événement,Date,Date de fin,Campus,Nb inscrits,Genre (from Inscription),Nb présents,Genre (from Présence),🎯 Taux de Participation,🎯 Taux de transformation,Nb présents avec PI signé
+﻿Name,Type événement,Date,Date de fin,Campus,Nb inscrits,Genre (from Inscription),Nb présents,Genre (from Présence), Taux de Participation, Taux de transformation,Nb présents avec PI signé
 JPO_Bordeaux_19/03/2025,JPO,19/3/2025 13:30,19/3/2025 17:00,BDX,15,"femme,homme,homme,homme,femme,femme,homme,homme,homme,homme,homme,homme,homme,homme,homme",1,homme,6.67%,100%,1
 JPO_Bordeaux_03/09/2025,JPO,3/9/2025 13:30,3/9/2025 16:30,BDX,9,"homme,femme,homme,homme,homme,femme,homme",3,"femme,femme,homme",33.33%,66.67%,2
 JPO_Bordeaux_07/01/2026,JPO,7/1/2026 13:30,7/1/2026 17:00,BDX,8,"femme,homme,homme,homme,homme,homme,femme",2,"homme,femme",25%,50%,1
