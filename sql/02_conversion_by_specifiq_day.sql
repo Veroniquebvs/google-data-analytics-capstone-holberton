@@ -82,5 +82,42 @@ WHERE EXTRACT(DAYOFWEEK FROM Date_seule) = 5
 
 GROUP BY Type_evenement;
 
+--Impact on the month
+SELECT
+  FORMAT_DATE('%Y-%m', Date_seule) AS month,
 
+  COUNT(Name) AS total_evenements,
+  SUM(Nb_inscrits) AS total_inscrits,
+  SUM(Nb_presents) AS total_presents,
+  SUM(Nb_presents_avec_PI_signe) AS total_convertis,
 
+  -- Actual attendance rate (Attendees / Enrolled students)
+  ROUND(SAFE_DIVIDE(SUM(Nb_presents), SUM(Nb_inscrits)) * 100, 2) AS taux_presence,
+
+  -- Conversion rate: the proportion of participants present who sign a contract (PI)
+  ROUND(SAFE_DIVIDE(SUM(Nb_presents_avec_PI_signe), SUM(Nb_presents)) * 100, 2) AS taux_transformation_presents,
+
+  -- Overall conversion rate: the proportion of all applicants who sign a contract (PI)
+  ROUND(SAFE_DIVIDE(SUM(Nb_presents_avec_PI_signe), SUM(Nb_inscrits)) * 100, 2) AS taux_conversion_global
+
+FROM `positive-oven-493718-i1.holberton_events.events_clean`
+
+GROUP BY month
+
+ORDER BY month ASC;
+
+--Monitoring: Breakdown by event type on August
+SELECT
+  Type_evenement,
+  COUNT(Name) AS total_evenements,
+  SUM(Nb_inscrits) AS total_inscrits,
+  SUM(Nb_presents) AS total_presents,
+  SUM(Nb_presents_avec_PI_signe) AS total_convertis,
+  ROUND(SAFE_DIVIDE(SUM(Nb_presents), SUM(Nb_inscrits)) * 100, 2) AS taux_presence,
+  ROUND(SAFE_DIVIDE(SUM(Nb_presents_avec_PI_signe), SUM(Nb_presents)) * 100, 2) AS taux_transformation_presents
+
+FROM `positive-oven-493718-i1.holberton_events.events_clean`
+
+WHERE FORMAT_DATE('%Y-%m', Date_seule) = '2025-08'
+
+GROUP BY Type_evenement;

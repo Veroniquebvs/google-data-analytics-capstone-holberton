@@ -131,7 +131,7 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 * **Overall performance for the week:** Sessions held from Monday to Friday outperformed those at the weekend: +7.8 percentage points in attendance (41.69 per cent versus 33.86 per cent) and +8.1 percentage points in conversion rate amongst those present (34.76 per cent versus 26.62 per cent).
 * **Greater engagement on weekdays:** Although Saturdays attract a massive volume of registrations per session (around 12.6 registrants per event compared with 6.8 on weekdays), the audience on weekdays is significantly more likely to complete a registration contract.
 
-#### 4.2.2 #### 4.2.2 Breakdown by day of the week
+#### 4.2.2 Breakdown by day of the week
 
 > **Related SQL script:** [`sql/02_conversion_by_specifiq_day.sql`](sql/02_conversion_by_specifiq_day.sql)
 
@@ -149,3 +149,29 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 * **Data entry bias and lack of representativeness (Tuesday and Monday):**
   * **Tuesday** shows a data collection anomaly, with 15 attendees reported but only four registered participants recorded (technical attendance rate of 375.00 per cent).
   * On **Monday**, only one event was recorded, with zero registered participants and zero attendees (the session was presumably cancelled), which precludes any operational conclusions for that day.
+
+### 4.2.3 Monthly analysis
+
+> **Associated SQL script:** [`sql/02_conversion_by_specifiq_day.sql`](sql/02_conversion_by_specifiq_day.sql)
+
+| Mois | Événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **2025-01** | 22 | 169 | 86 | 26 | 50,89 % | 30,23 % | 15,38 % |
+| **2025-03** | 11 | 145 | 55 | 17 | 37,93 % | 30,91 % | 11,72 % |
+| **2025-04** | 21 | 282 | 117 | 29 | 41,49 % | 24,79 % | 10,28 % |
+| **2025-05** | 20 | 146 | 73 | 27 | 50,00 % | 36,99 % | 18,49 % |
+| **2025-07** | 21 | 113 | 34 | 7 | 30,09 % | 20,59 % | 6,19 % |
+| **2025-08** | 21 | 17 | 15 | 8 | 88,24 % | 53,33 % | 47,06 % |
+| **2025-09** | 34 | 312 | 120 | 61 | 38,46 % | **50,83 %** | **19,55 %** |
+| **2025-12** | 12 | 194 | 40 | 8 | 20,62 % | 20,00 % | 4,12 % |
+| **2026-01** | 22 | 224 | 73 | 17 | 32,59 % | 23,29 % | 7,59 % |
+| **2026-02** | 1 | 0 | 5 | 0 | — | 0,00 % | — |
+| **2026-03** | 12 | 116 | 34 | 4 | 29,31 % | 11,76 % | 3,45 % |
+
+**Key observations:**
+* **Peak in sign-ups:** September 2025 alone accounts for **61 contract signings** (nearly 30 per cent of the total annual volume), with a conversion rate of **50.83 per cent** amongst those present. The back-to-school effect maximises the intention to commit.
+* **The year-end trough in December:** December 2025 sees the sharpest decline: the attendance rate stands at **20.62 per cent** (only 40 attendees out of 194 registered) and the overall conversion rate plummets to **4.12 per cent**, reflecting candidates’ disengagement as the festive season approaches.
+* **Structural biases and data collection anomalies:**
+  * August 2025: The record conversion rate (47.06 per cent overall and 53.33 per cent of those present) is explained by the nature of the sessions: 100 per cent of the month’s events (21 out of 21) were individual ‘Vis-ma-vie’ immersive sessions. This small-group format (17 registered, 15 attendees and eight sign-ups) facilitates the selection of candidates just before the start of the intake.
+  * **February 2026** featured only a single session with no registered participants and five attendees, excluding this month from any statistical analysis.
+* **Decline in performance in early 2026:** The January 2026 intake generated an overall conversion rate half that of January 2025 (7.59 per cent compared with 15.38 per cent), a trend confirmed by a decline in March 2026 (3.45 per cent).
