@@ -97,6 +97,8 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 
 **Final Result :** 100% of strategic columns (`Type événement`, `Date`, `Campus`, and all cleaned variables) now display **0 missing values (NULL)**. All numbers are correctly aligned and typed, confirming that the dataset is verified, clean, and ready for the **ANALYZE** phase.
 
+---
+
 ## 4. ANALYZE
 
 ### 4.1 Conversion Performance by Event Type
@@ -113,3 +115,37 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 * **Highest In-Person Conversion:** The *Vis-ma-vie* format achieves the highest attendee transformation rate (**44.44%** vs. 31.35% for Open Days / JPO), confirming that immersion drives strong commitment.
 * **Volume Driver:** Open Days (*JPO*) account for nearly all total signed contracts (**195 out of 204**), despite a lower show-up rate (36.96%).
 * **Data Discrepancy Note:** The *Journee_immersive* category shows a data entry anomaly with more reported attendees than registered leads (12 attendees vs. 3 registered), making this segment statistically unreliable.
+
+### 4.2 Temporal Impact
+
+#### 4.2.1 Week vs Weekend Comparison
+
+> **Associated SQL script:** [`sql/02_conversion_by_specifiq_day.sql`](sql/02_conversion_by_specifiq_day.sql)
+
+| Type de période | Total Événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Semaine** | 132 | 897 | 374 | 130 | **41,69 %** | **34,76 %** | **14,49 %** |
+| **Week-end** | 65 | 821 | 278 | 74 | 33,86 % | 26,62 % | 9,01 % |
+
+**Key observations:**
+* **Overall performance for the week:** Sessions held from Monday to Friday outperformed those at the weekend: +7.8 percentage points in attendance (41.69 per cent versus 33.86 per cent) and +8.1 percentage points in conversion rate amongst those present (34.76 per cent versus 26.62 per cent).
+* **Greater engagement on weekdays:** Although Saturdays attract a massive volume of registrations per session (around 12.6 registrants per event compared with 6.8 on weekdays), the audience on weekdays is significantly more likely to complete a registration contract.
+
+#### 4.2.2 #### 4.2.2 Breakdown by day of the week
+
+> **Related SQL script:** [`sql/02_conversion_by_specifiq_day.sql`](sql/02_conversion_by_specifiq_day.sql)
+
+| Jour de la semaine | Événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Mardi** | 7 | 4 | 15 | 4 | 375,00 % | 26,67 % | 100,00 % |
+| **Jeudi** | 42 | 55 | 28 | 13 | 50,91 % | **46,43 %** | **23,64 %** |
+| **Mercredi** | 82 | 838 | 331 | 113 | 39,50 % | 34,14 % | 13,48 % |
+| **Samedi** | 65 | 821 | 278 | 74 | 33,86 % | 26,62 % | 9,01 % |
+| **Lundi** | 1 | 0 | 0 | 0 | — | — | — |
+
+**Key observations:**
+* **Wednesdays perform better than Saturdays:** The number of registered visitors is almost identical on these two days; however, there is a higher attendance rate (39.50 per cent compared with 33.86 per cent) and a higher on-site conversion rate (34.14 per cent compared with 26.62 per cent). Wednesdays therefore generate **113 contract signings** compared with 74 on Saturdays.
+* **Thursday’s excellent performance:** Thursday has the highest conversion rate amongst those present (**46.43 per cent**). This figure can be explained by a structural factor: 92.86 per cent of Thursday’s slots (39 out of 42) are ‘Vis-ma-vie’ sessions, where personalised support encourages a high rate of successful outcomes.
+* **Data entry bias and lack of representativeness (Tuesday and Monday):**
+  * **Tuesday** shows a data collection anomaly, with 15 attendees reported but only four registered participants recorded (technical attendance rate of 375.00 per cent).
+  * On **Monday**, only one event was recorded, with zero registered participants and zero attendees (the session was presumably cancelled), which precludes any operational conclusions for that day.

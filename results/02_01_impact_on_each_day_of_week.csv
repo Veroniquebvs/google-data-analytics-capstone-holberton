@@ -1,0 +1,6 @@
+jour_semaine,total_evenements,total_inscrits,total_presents,total_convertis,taux_presence,taux_transformation_presents,taux_conversion_global
+Mardi,7,4,15,4,375.0,26.67,100.0
+Jeudi,42,55,28,13,50.91,46.43,23.64
+Mercredi,82,838,331,113,39.5,34.14,13.48
+Samedi,65,821,278,74,33.86,26.62,9.01
+Lundi,1,0,0,0,,,
