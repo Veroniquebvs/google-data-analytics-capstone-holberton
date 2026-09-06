@@ -192,3 +192,30 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
   * **Outside the holidays:** each event attracts an average of **10.1 registered participants** and generates **1.23 sign-ups**.
   * **During school holidays:** each event attracts only **5.1 registrants** and yields **0.53 contracts**.
   Maintaining a busy schedule during the school holidays (55 sessions organised) places a heavy burden on the teams for a low volume of recruitment (only 29 contracts in total).
+
+  ### 4.3 Performance analysis by campus
+
+> **Related SQL script:** [`sql/03_campus_impact.sql`](sql/03_campus_impact.sql)
+
+| Campus | Événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **MCN** | 2 | 19 | 11 | 6 | 57,89 % | **54,55 %** | **31,58 %** |
+| **RDZ** | 7 | 34 | 19 | 9 | 55,88 % | 47,37 % | 26,47 % |
+| **CSD** | 7 | 35 | 29 | 9 | **82,86 %** | 31,03 % | 25,71 % |
+| **SNS** | 7 | 48 | 33 | 12 | 68,75 % | 36,36 % | 25,00 % |
+| **LVA** | 22 | 48 | 32 | 12 | 66,67 % | 37,50 % | 25,00 % |
+| **THO** | 22 | 126 | 66 | 18 | 52,38 % | 27,27 % | 14,29 % |
+| **TLS** | 17 | 259 | 112 | 32 | 43,24 % | 28,57 % | 12,36 % |
+| **RNS** | 23 | 119 | 59 | 14 | 49,58 % | 23,73 % | 11,76 % |
+| **FRJ** | 14 | 87 | 31 | 10 | 35,63 % | 32,26 % | 11,49 % |
+| **IDF** | 18 | 408 | 101 | 46 | 24,75 % | 45,54 % | 11,27 % |
+| **DIJ** | 22 | 134 | 57 | 11 | 42,54 % | 19,30 % | 8,21 % |
+| **BDX** | 14 | 149 | 35 | 12 | 23,49 % | 34,29 % | 8,05 % |
+| **HDF** | 22 | 252 | 67 | 13 | 26,59 % | 19,40 % | 5,16 % |
+
+**Key observations:**
+* **Île-de-France and Toulouse** are the campuses that secured the most signed contracts (between them, 78 out of 204). IDF has the highest number of enrolments (408 enrolled, or 22.7 per session); despite high absenteeism, the conversion rate amongst those present is excellent (45.54 per cent).
+* **Île-de-France (24.75 per cent), Bordeaux (23.49 per cent) and HDF (26.59 per cent) have the lowest attendance rates in the network. Fewer than one in four registered participants actually turn up on the day.
+*  With 22 events and 252 registrants, **the HDF campus** recorded: a record level of absenteeism (26.59 per cent attendance) and the lowest on-site conversion rate (19.40 per cent), resulting in the lowest overall conversion rate in the network (5.16 per cent, or just 13 contracts).
+* **Campuses in smaller towns (CSD, SNS, RDZ, LVA) show good attendance (often above 65 per cent) and solid overall conversion rates of around 25 per cent. Despite lower numbers of registrants per session, candidates’ commitment is significantly stronger there.
+* **Volume bias:** The record MCN rate (31.58 per cent) is based on just two events and cannot be considered representative of an annual trend.
