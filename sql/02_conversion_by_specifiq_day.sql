@@ -121,3 +121,41 @@ FROM `positive-oven-493718-i1.holberton_events.events_clean`
 WHERE FORMAT_DATE('%Y-%m', Date_seule) = '2025-08'
 
 GROUP BY Type_evenement;
+
+
+--impact on school holiday
+SELECT
+  CASE
+    WHEN event.Zone_de_vacances_scolaires = 'Zone A' AND holiday.`Zone A` = 1
+      THEN 'Vacances scolaires'
+    WHEN event.Zone_de_vacances_scolaires = 'Zone B' AND holiday.`Zone B` = 1
+      THEN 'Vacances scolaires'
+    WHEN event.Zone_de_vacances_scolaires = 'Zone C' AND holiday.`Zone C` = 1
+      THEN 'Vacances scolaires'
+    ELSE 'Hors vacances'
+    END
+    AS statut_vacances,
+  COUNT(event.Name) AS total_evenements,
+  SUM(event.Nb_inscrits) AS total_inscrits,
+  SUM(event.Nb_presents) AS total_presents,
+  SUM(event.Nb_presents_avec_PI_signe) AS total_convertis,
+
+  -- Actual attendance rate (Attendees / Enrolled students)
+  ROUND(SAFE_DIVIDE(SUM(event.Nb_presents), SUM(event.Nb_inscrits)) * 100, 2)
+    AS taux_presence,
+
+  -- Conversion rate: the proportion of participants present who sign a contract (PI)
+  ROUND(
+    SAFE_DIVIDE(SUM(event.Nb_presents_avec_PI_signe), SUM(event.Nb_presents)) * 100, 2)
+    AS taux_transformation_presents,
+
+  -- Overall conversion rate: the proportion of all applicants who sign a contract (PI)
+  ROUND(
+    SAFE_DIVIDE(SUM(event.Nb_presents_avec_PI_signe), SUM(event.Nb_inscrits)) * 100, 2)
+    AS taux_conversion_global
+FROM `positive-oven-493718-i1.holberton_events.events_clean` AS event
+INNER JOIN `positive-oven-493718-i1.holberton_events.school_holidays` AS holiday
+  ON event.Date_seule = holiday.Date
+GROUP BY statut_vacances
+ORDER BY taux_conversion_global DESC;
+

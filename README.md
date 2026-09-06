@@ -175,3 +175,20 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
   * August 2025: The record conversion rate (47.06 per cent overall and 53.33 per cent of those present) is explained by the nature of the sessions: 100 per cent of the month’s events (21 out of 21) were individual ‘Vis-ma-vie’ immersive sessions. This small-group format (17 registered, 15 attendees and eight sign-ups) facilitates the selection of candidates just before the start of the intake.
   * **February 2026** featured only a single session with no registered participants and five attendees, excluding this month from any statistical analysis.
 * **Decline in performance in early 2026:** The January 2026 intake generated an overall conversion rate half that of January 2025 (7.59 per cent compared with 15.38 per cent), a trend confirmed by a decline in March 2026 (3.45 per cent).
+
+#### 4.2.4 Impact of school holidays
+
+> **Related SQL script:** [`sql/02_conversion_by_specifiq_day.sql`](sql/02_conversion_by_specifiq_day.sql)
+
+| Statut | Événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Hors vacances** | 142 | 1 439 | 532 | 175 | 36,97 % | **32,89 %** | **12,16 %** |
+| **Vacances scolaires** | 55 | 279 | 120 | 29 | **43,01 %** | 24,17 % | 10,39 % |
+
+**Key observations:**
+* **Better attendance during the holidays:** The attendance rate reaches **43.01 per cent** during school holidays (compared with 36.97 per cent outside the holidays). Enrolled participants have more free time and are more likely to keep their appointments.
+* **Lower on-the-spot conversion rate:** However, the conversion rate of those present drops to **24.17 per cent** during the holidays (compared with 32.89 per cent during the rest of the year).
+* **Performance:**
+  * **Outside the holidays:** each event attracts an average of **10.1 registered participants** and generates **1.23 sign-ups**.
+  * **During school holidays:** each event attracts only **5.1 registrants** and yields **0.53 contracts**.
+  Maintaining a busy schedule during the school holidays (55 sessions organised) places a heavy burden on the teams for a low volume of recruitment (only 29 contracts in total).
