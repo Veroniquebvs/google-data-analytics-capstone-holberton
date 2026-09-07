@@ -219,3 +219,19 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 *  With 22 events and 252 registrants, **the HDF campus** recorded: a record level of absenteeism (26.59 per cent attendance) and the lowest on-site conversion rate (19.40 per cent), resulting in the lowest overall conversion rate in the network (5.16 per cent, or just 13 contracts).
 * **Campuses in smaller towns (CSD, SNS, RDZ, LVA) show good attendance (often above 65 per cent) and solid overall conversion rates of around 25 per cent. Despite lower numbers of registrants per session, candidates’ commitment is significantly stronger there.
 * **Volume bias:** The record MCN rate (31.58 per cent) is based on just two events and cannot be considered representative of an annual trend.
+
+#### 4.4 Impact of time slots
+
+> **Related SQL script:** [`sql/04_time_slot_impact.sql`](sql/04_time_slot_impact.sql)
+
+| Time slot | Événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Journée** | 43 | 30 | 30 | 9 | **100,00 %** | 30,00 % | 30,00 % |
+| **Après-midi** | 106 | 1 174 | 439 | 144 | 37,39 % | 32,80 % | 12,27 % |
+| **Matin** | 48 | 514 | 183 | 51 | 35,60 % | 27,87 % | 9,92 % |
+
+**Key observations:**
+* **The afternoon** accounts for **53.81 per cent of events** (106 out of 197), **68.34 per cent of registrants** (1,174 out of 1,718) and generates **70.59 per cent of the total volume of contracts signed** (144 out of 204). It is also the time slot with the highest on-site conversion rate (**32.80 per cent** of those present sign a contract).
+* **The ‘Day’ format has an overall conversion rate of **30.00 per cent** and an attendance rate of 100.00 per cent; this corresponds to the 43 individual immersion sessions (*Vis-ma-vie*). This format attracted only 30 actual participants in total (0.70 registered per session), resulting in nine contracts signed – representing just 4.41 per cent of overall recruitment.
+* With 48 sessions and 514 registrants, the **morning slot** converts less effectively on-site (**27.87 per cent**) and has the lowest overall conversion rate (**9.92 per cent**), indicating a less engaged audience than in the afternoon.
+
