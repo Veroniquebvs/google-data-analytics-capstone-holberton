@@ -235,3 +235,24 @@ A data quality control dictionary was implemented in the "Synthèse" sheet to co
 * **The ‘Day’ format has an overall conversion rate of **30.00 per cent** and an attendance rate of 100.00 per cent; this corresponds to the 43 individual immersion sessions (*Vis-ma-vie*). This format attracted only 30 actual participants in total (0.70 registered per session), resulting in nine contracts signed – representing just 4.41 per cent of overall recruitment.
 * With 48 sessions and 514 registrants, the **morning slot** converts less effectively on-site (**27.87 per cent**) and has the lowest overall conversion rate (**9.92 per cent**), indicating a less engaged audience than in the afternoon.
 
+### 4.5 Analysis of participant profiles
+
+> **Related SQL script:** [`sql/05_gender_impact.sql`](sql/05_gender_impact.sql)
+
+#### Limitations of the dataset
+It is **impossible to precisely identify the profile of participants who convert best** based on the available data, for two reasons:
+1. **Lack of socio-demographic variables:** The table contains no information on age, current employment status (student, employee, jobseeker undergoing retraining) or the candidates’ level of education.
+2. **No traceability regarding conversion:** Whilst the gender variable is recorded at registration and attendance, the signed contracts (`Nb_presents_avec_PI_signe`) are not linked to a specific profile.
+
+The analysis should focus on the number of men and women at the time of registration and the number of men and women attending the events.
+
+---
+
+| Genre | Inscrits identifiés | Présents identifiés | Taux de présence (%) | Part des inscrits (%) | Part des présents (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Hommes** | 1 230 | 498 | **40,49 %** | 77,85 % | 80,45 % |
+| **Femmes** | 350 | 121 | **34,57 %** | 22,15 % | 19,55 % |
+
+**Key findings:**
+* Men account for more than three-quarters of those registered (**77.85 per cent**) and those present (**80.45 per cent**).
+* The attendance rate for men stands at **40.49 per cent**, compared with **34.57 per cent** for women (a moderate difference of 5.9 percentage points). The drop-off between registration and actual attendance affects both groups in a similar way.
