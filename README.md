@@ -256,3 +256,25 @@ The analysis should focus on the number of men and women at the time of registra
 **Key findings:**
 * Men account for more than three-quarters of those registered (**77.85 per cent**) and those present (**80.45 per cent**).
 * The attendance rate for men stands at **40.49 per cent**, compared with **34.57 per cent** for women (a moderate difference of 5.9 percentage points). The drop-off between registration and actual attendance affects both groups in a similar way.
+
+### 4.6 Conversion benchmarks by event type
+
+> **Associated SQL script:** [`sql/06_conversion_target.sql`](sql/06_conversion_target.sql)
+
+In the absence of pre-defined targets in the dataset, historical performance data can be used to define **benchmarks** for evaluating future events.
+
+| Type d’événement | Nombre d’événements | Inscrits | Présents | Convertis (PI signés) | Taux de présence (%) | Taux de transformation (sur présents) (%) | Taux de conversion global (sur inscrits) (%) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Vis-ma-vie** | 43 | 32 | 18 | 8 | 56,25 % | 44,44 % | **25,00 %** |
+| **Journée portes ouvertes** | 150 | 1 683 | 622 | 195 | 36,96 % | 31,35 % | **11,59 %** |
+| **Journée immersive** | 4 | 3 | 1 | 1 | 33,33 % | **100,00 %** | 33,33 % |
+
+**Findings:**
+
+* Accounting for more than three-quarters of events (150 out of 197) and 98 per cent of registrations, the Open Day is the quintessential mass-market format. It records a **31.35 per cent conversion rate amongst attendees** and nearly **12 per cent overall conversion** (11.59 per cent). These figures set the baseline benchmark to be maintained for large-scale events.
+* Although attracting very small numbers (32 registrants across 43 sessions), the ‘Live My Life’ format boasts an excellent conversion rate: **44.44 per cent of attendees** sign a contract, resulting in an overall conversion rate of **25.00 per cent**. This is the ideal format for converting candidates who are still undecided after an Open Day.
+* With only four events organised, one anomaly (three registered participants recorded out of 12 attendees) and a single contract signed, this volume is insufficient to establish a reliable target.
+
+**Key targets to bear in mind for planning:**
+* **Open Day format:** Aim for at least **30 per cent** conversion among those present and **12 per cent** overall conversion.
+* **‘Vis-ma-vie’ format:** Aim for at least **45 per cent** conversion among those present and **25 per cent** overall conversion.
