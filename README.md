@@ -278,3 +278,19 @@ In the absence of pre-defined targets in the dataset, historical performance dat
 **Key targets to bear in mind for planning:**
 * **Open Day format:** Aim for at least **30 per cent** conversion among those present and **12 per cent** overall conversion.
 * **‘Vis-ma-vie’ format:** Aim for at least **45 per cent** conversion among those present and **25 per cent** overall conversion.
+
+---
+
+## 5. SHARE : Visualisations and dashboards
+
+The reporting phase is based on the creation of an interactive dashboard developed using **Tableau**. This management tool enables teams to filter performance indicators by campus and event format.
+
+**Interactive dashboard:** [View the dashboard on Tableau Public](https://public.tableau.com/views/Holbertonevents/Tableaudebord1)
+
+![Holberton Events Management](images/tableau_dashboard.png)
+
+### Key charts:
+1. **Attendance rates by campus**
+2. **The effectiveness of time slots** (Number of sign-ups and conversion rates by time of day).
+3. **Conversion benchmarks** (Comparison of effectiveness between different types of event).
+
