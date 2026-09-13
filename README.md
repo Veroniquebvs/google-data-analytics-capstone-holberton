@@ -2,6 +2,43 @@
 
 ---
 
+## Table of Contents / Table des Matières
+
+- [1. ASK](#1-ask)
+  - [Context & Business Task](#context--business-task)
+  - [Guiding Questions](#guiding-questions)
+  - [Stakeholders](#stakeholders)
+- [2. PREPARE](#2-prepare)
+  - [2.1. Data Identification & Provenance](#21-data-identification--provenance)
+  - [2.2. Internal Dataset Structure & Variable Selection](#22-internal-dataset-structure--variable-selection)
+    - [2.2.1. Variables Retained for Analysis](#221-variables-retained-for-analysis-)
+    - [2.2.2. Variables Excluded from Analysis](#222-variables-excluded-from-analysis-)
+  - [2.3. Data Credibility Assessment (ROCCC Test)](#23-data-credibility-assessment-roccc-test)
+  - [2.4. Data Governance & Security](#24-data-governance--security)
+- [3. PROCESS (Data Cleaning & Transformation)](#3-process-data-cleaning--transformation)
+  - [3.1. Tools Used & Export Format](#31-tools-used--export-format)
+  - [3.2. Data Cleaning & Normalization](#32-data-cleaning--normalization)
+  - [3.3. Feature Engineering & Data Enrichment](#33-feature-engineering--data-enrichment)
+  - [3.4. Data Quality Check](#34-data-quality-check)
+- [4. ANALYZE](#4-analyze)
+  - [4.1 Conversion Performance by Event Type](#41-conversion-performance-by-event-type)
+  - [4.2 Temporal Impact](#42-temporal-impact)
+    - [4.2.1 Week vs Weekend Comparison](#421-week-vs-weekend-comparison)
+    - [4.2.2 Breakdown by day of the week](#422-breakdown-by-day-of-the-week)
+    - [4.2.3 Monthly analysis](#423-monthly-analysis)
+    - [4.2.4 Impact of school holidays](#424-impact-of-school-holidays)
+  - [4.3 Performance analysis by campus](#43-performance-analysis-by-campus)
+  - [4.4 Impact of time slots](#44-impact-of-time-slots)
+  - [4.5 Analysis of participant profiles](#45-analysis-of-participant-profiles)
+  - [4.6 Conversion benchmarks by event type](#46-conversion-benchmarks-by-event-type)
+- [5. SHARE : Visualisations and dashboards](#5-share--visualisations-and-dashboards)
+- [6. ACT: Recommendations and Action Plan](#6-act-recommendations-and-action-plan)
+  - [6.1. Operational Recommendations (ROI Optimisation)](#61-operational-recommendations-roi-optimisation)
+  - [6.2. Strategic Recommendations (Synergy between formats)](#62-strategic-recommendations-synergy-between-formats)
+  - [6.3. Areas for further exploration](#63-areas-for-further-exploration)
+
+---
+
 ## 1. ASK
 
 ### Context & Business Task
