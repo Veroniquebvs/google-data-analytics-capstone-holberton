@@ -2,7 +2,7 @@
 
 ---
 
-## Table of Contents / Table des Matières
+## Table of Contents
 
 - [1. ASK](#1-ask)
   - [Context & Business Task](#context--business-task)
@@ -282,8 +282,6 @@ It is **impossible to precisely identify the profile of participants who convert
 2. **No traceability regarding conversion:** Whilst the gender variable is recorded at registration and attendance, the signed contracts (`Nb_presents_avec_PI_signe`) are not linked to a specific profile.
 
 The analysis should focus on the number of men and women at the time of registration and the number of men and women attending the events.
-
----
 
 | Genre | Inscrits identifiés | Présents identifiés | Taux de présence (%) | Part des inscrits (%) | Part des présents (%) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
