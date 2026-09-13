@@ -333,7 +333,7 @@ The reporting phase is based on the creation of an interactive dashboard develop
 
 ## 6. ACT: Recommendations and Action Plan
 
-* **Slide deck :** [View the PDF presentation](docs/Performances des évènements Holberton School.pdf)
+* **Slide deck :** [View the PDF presentation](docs/Performances_des_evenements_Holberton_School.pdf)
 
 Following an in-depth analysis of Holberton School’s event data, several areas for optimisation have been identified. These recommendations are divided into three categories: strategic, operational and data governance.
 
