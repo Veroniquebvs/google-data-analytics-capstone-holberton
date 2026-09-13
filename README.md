@@ -355,5 +355,5 @@ To refine future analyses, it is recommended that data collection during registr
 
 ## Author
 
-**Véronique Beauvais** — *Data Analyst*
-* **LinkedIn :** [linkedin.com/in/veronique-beauvais/](https://www.linkedin.com/in/veronique-beauvais/)
+**Véronique Beauvais** *Data Analyst*
+**LinkedIn :** [linkedin.com/in/veronique-beauvais/](https://www.linkedin.com/in/veronique-beauvais/)
