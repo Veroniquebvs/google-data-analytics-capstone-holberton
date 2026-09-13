@@ -294,3 +294,22 @@ The reporting phase is based on the creation of an interactive dashboard develop
 2. **The effectiveness of time slots** (Number of sign-ups and conversion rates by time of day).
 3. **Conversion benchmarks** (Comparison of effectiveness between different types of event).
 
+---
+
+## 6. ACT: Recommendations and Action Plan
+
+Following an in-depth analysis of Holberton School’s event data, several areas for optimisation have been identified. These recommendations are divided into three categories: strategic, operational and data governance.
+
+### 6.1. Operational Recommendations (ROI Optimisation)
+* The data shows that events held in the afternoon, particularly on Wednesdays, yield the highest conversion rates. Future planning should prioritise these time slots.
+* The ‘pre-term’ period (August and September) sees peaks in registrations. It is crucial to step up marketing campaigns and the frequency of events during these two key months.
+* Set up an automated reminder system (text message and/or email) two days and four hours before the event for registered candidates, prioritising large urban campuses where absenteeism is highest.
+
+### 6.2. Strategic Recommendations (Synergy between formats)
+* The analysis shows that the Open Day is an excellent tool for driving volume, whilst the *Vis-ma-vie* format is a highly effective conversion tool. We must make it standard practice to offer registration for a *Vis-ma-vie* session at the end of every Open Day.
+* Conduct a qualitative study of the campuses with the highest conversion rates in order to identify their best organisational practices and replicate them nationwide.
+
+### 6.3. Areas for further exploration
+To refine future analyses, it is recommended that data collection during registration (in compliance with the GDPR) be expanded to include the following areas:
+* Add qualitative fields to identify prospective Holbies by status (employee, student, jobseeker), by level of education (no qualifications, A-levels, two years’ further education, etc.) and by age group, whilst complying with the GDPR.
+* Create a system to track speakers at each event in order to measure the impact of the Holbies’ and staff’s presence on candidates’ final decisions.
