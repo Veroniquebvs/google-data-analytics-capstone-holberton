@@ -350,3 +350,10 @@ Following an in-depth analysis of Holberton School’s event data, several areas
 To refine future analyses, it is recommended that data collection during registration (in compliance with the GDPR) be expanded to include the following areas:
 * Add qualitative fields to identify prospective Holbies by status (employee, student, jobseeker), by level of education (no qualifications, A-levels, two years’ further education, etc.) and by age group, whilst complying with the GDPR.
 * Create a system to track speakers at each event in order to measure the impact of the Holbies’ and staff’s presence on candidates’ final decisions.
+
+---
+
+## Author
+
+**Véronique Beauvais** — *Data Analyst*
+* **LinkedIn :** [linkedin.com/in/veronique-beauvais/](https://www.linkedin.com/in/veronique-beauvais/)
